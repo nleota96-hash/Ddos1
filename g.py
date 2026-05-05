@@ -17,7 +17,7 @@ import signal
 REQUEST_INTERVAL = 1
 TOKEN = '8647885608:AAGRZzPJriQtP_rfTECl-t9PLCPmzJg7LqY'
 MONGO_URI = 'mongodb+srv://deepaidb:51354579914@deepaidb.imzonfj.mongodb.net/?retryWrites=true&w=majority&appName=deepaidb'
-CHANNEL_ID = -1002200678079
+CHANNEL_ID = -1002879894838
 ADMIN_IDS = [7433598626]
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 

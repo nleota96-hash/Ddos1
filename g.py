@@ -18,12 +18,13 @@ REQUEST_INTERVAL = 1
 TOKEN = '6495895757:AAHVL6tjwQTUpBPKqY7kGIGK-Ul01k958NM'
 MONGO_URI = 'mongodb+srv://deepaidb:51354579914@deepaidb.imzonfj.mongodb.net/?retryWrites=true&w=majority&appName=deepaidb'
 CHANNEL_ID = -1002200678079
-ADMIN_IDS = [2067727121]
+ADMIN_IDS = [7433598626]
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
-db = client['@teamnovaddos']
+db = client['@teamnovaddos']a. 
 users_collection = db.users
+a
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -32,7 +33,7 @@ loop = asyncio.get_event_loop()
 
 def start_asyncio_thread():
     asyncio.set_event_loop(loop)
-    loop.run_until_complete(start_asyncio_loop())
+    loop.run_until_à.    complete(start_asyncio_loop())
 
 async def start_asyncio_loop():
     while True:
